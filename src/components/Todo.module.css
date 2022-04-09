@@ -1,0 +1,7 @@
+
+.removeTodo {
+  height: 10px;
+  width: 10px;
+  background-color: red;
+  border-radius: 50%;
+}
