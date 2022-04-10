@@ -33,8 +33,3 @@ input {
   padding: 10px;
 }
 
-#todos {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
