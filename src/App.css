@@ -6,4 +6,32 @@
     padding: 10px;
 }
 
+.removeTodo {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #b11fac;
+}
+
+.todo {
+  position: relative;
+  background-color: rgb(236, 35, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 5px;
+  animation: slideIn .3s;
+}
+
+@keyframes slideIn {
+  0% {
+    left: -50%;
+  } 100% {
+    left: 0%;
+  }
+}
+
 
