@@ -1,5 +1,5 @@
 import './App.css';
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Todo from './components/Todo';
 import TodoList from './components/TodoList';
 
